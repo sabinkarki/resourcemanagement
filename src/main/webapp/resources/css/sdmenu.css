@@ -1,0 +1,57 @@
+.button_gray{
+	background-color: #D4D0C8;
+	font-family: verdana;
+	font-weight: normal;
+	font-size: 8pt;
+	color:#000000; 
+	border:1px solid #000000;	
+	border-color:#737173;
+}
+div.sdmenu {
+	width: 230px;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+	/*background: url(../images/buttomtitle.gif) no-repeat  left bottom ;*/
+	color: #fff;
+}
+div.sdmenu div {
+	background: url(../images/title.gif) repeat-x;
+	overflow: hidden;
+}
+div.sdmenu div:first-child {
+	/*background: url(../images/toptitle.gif) no-repeat;*/
+}
+div.sdmenu div.collapsed {
+	height: 23px;
+}
+div.sdmenu div span {
+	display: block;
+	padding: 5px 23px;
+	font-weight: bold;
+	color: white;
+	background: url(../images/expanded.gif) no-repeat 10px center;
+	cursor: default;
+	border-bottom: 1px solid #ddd;
+	font-size:8.5pt;
+}
+div.sdmenu div.collapsed span {
+	background-image: url(../images/collapsed.gif);
+}
+div.sdmenu div a {
+	padding: 5px 10px;
+	background: #eee;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	color: #066;
+}
+div.sdmenu div a.current {
+	background : #ccc;
+}
+div.sdmenu div a:hover {
+	background : #066 url(../images/linkarrow.gif) no-repeat right center;
+/*	background : #AC1614 url(../images/linkarrow.gif) no-repeat right center;*/
+	color: #fff;
+	text-decoration: none;
+	z-index:12px;
+}

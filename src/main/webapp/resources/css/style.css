@@ -1,0 +1,211 @@
+@import url('body.css');
+
+@import url('header.css');
+
+body {
+	font-size: 18px;
+}
+
+.redalert {
+	font-family: Tahoma, Arial;
+	color: #FF0000;
+	font-size: 12px;
+}
+
+.red_alert {
+	font-family: Tahoma, Arial;
+	color: #FF0000;
+	font-size: 12px;
+}
+
+.outside_border {
+	border: 1px solid #B7B7B7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 6px;
+	padding: 4px 6px;
+	/*font-size:11px;*/
+	color: #000000;
+}
+
+.listing_table {
+	background-color: #CCCCCC;
+	/*color: #066666;*/
+	color: #000;
+	text-align: left;
+	margin-top: 6px;
+}
+
+.listing_table th {
+	background-color: #DCDCDC;
+	padding: 4px;
+	font-size: 12px;
+	text-decoration: none;
+	height: 25px;
+}
+
+.listing_table td {
+	font-size: 11px;
+	font-style: normal;
+	background-color: #FFFFFF;
+	padding: 3px 2px 2px 3px;
+}
+
+form textbox, .textarea {
+	/*BORDER-TOP-WIDTH: 1px; 
+	BORDER-BOTTOM-WIDTH: 1px; 
+	BORDER-LEFT-WIDTH: 1px; 
+	BORDER-RIGHT-WIDTH: 1px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	border: 1px solid #9F9F9F;
+	margin: 1px;
+    padding: 2px 4px;
+}
+
+form select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	COLOR: #000000;
+	border: 1px solid #9F9F9F;
+	 margin: 1px;
+    padding: 2px 4px;
+}
+
+a:link, a:visited, a:hover {
+	text-decoration: underline;
+}
+
+a.utilityLink:link, a.utilityLink:visited {
+	padding-bottom: 3px;
+	text-decoration: underline;
+}
+
+h2 {
+	margin-bottom: 0;
+	margin-top: 2px;
+}
+
+em {
+	display: inline-block;
+	padding: 2px;
+	width: 5px;
+	text-align: left;
+	vertical-align: top;
+	color: #FF0000;
+}
+
+.noRecord {
+	text-align: center;
+	padding: 5px;
+	color: #FF0000;
+}
+
+label {
+	display: inline-block;
+	padding: 2px 2px 2px 2px;
+	width: 120px;
+	text-align: right;
+	vertical-align: top;
+}
+
+label.error {
+	display: inline-block;
+	padding: 2px 2px 2px 2px;
+	width: 0px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.LabelView {
+	display: inline-block;
+	padding: 2px 2px 2px 2px;
+	text-align: left;
+	vertical-align: top;
+	width: auto;
+}
+
+.CenterMe {
+	text-align: center;
+}
+
+table  td {
+	vertical-align: top;
+}
+
+table  th {
+	text-align: left;
+}
+
+.GridButton {
+	vertical-align: middle;
+	width: 50px;
+	text-align: center;
+}
+
+.GridView {
+	vertical-align: top;
+	text-align: left;
+	width: 100%;
+	border: 0;
+	border-width: 0px;
+	border-style: none;
+	font-size: 8pt;
+}
+
+.GridView th {
+	padding: 4px 0 4px 4px;
+	/*text-align:left;*/
+	background-color: #ABC3D7;
+}
+
+.GridView th a {
+	text-decoration: none;
+}
+
+.GridView th a.ASC {
+	background-image: url('../../../Icons/expand.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 15px;
+}
+
+.GridView th a.DESC {
+	background-image: url('../../../Icons/collapse.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 15px;
+}
+
+.GridView tr {
+	height: 5px;
+}
+
+.GridView td {
+	padding: 0 0 0 4px;
+}
+
+.GridItem {
+	background-color: #FFFFFF;
+	border-bottom: solid 1px #c1dad7;
+	border-top: none 0px;
+	border-left: none 0px;
+	border-right: none 0px;
+}
+
+.GridAlter {
+	background-color: #F8F8F8;
+	border-bottom: solid 1px #c1dad7;
+	border-top: none 0px;
+	border-left: none 0px;
+	border-right: none 0px;
+}
+
+.GridRowOver {
+	background-color: #B7B7B7;
+	border-bottom: solid 1px #c1dad7;
+	border-top: none 0px;
+	border-left: none 0px;
+	border-right: none 0px;
+}

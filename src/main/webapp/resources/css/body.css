@@ -1,0 +1,266 @@
+body {
+	
+	padding:0px;
+	text-align:center;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	
+}
+h1{font-size:12pt;}
+div{
+	
+	text-align:left;
+	padding:0;
+	
+}
+#pageBody{
+	/*padding:5px;*/
+	/*width:100%;*/
+	margin:0 auto;
+}
+div#rightContent {
+	
+	padding:5px 2px 0 2px;
+	float: left;
+	margin:auto;
+	
+	min-width:800px;
+	width: 99%;
+	
+	min-height: 500px;
+	height:auto !important;
+	height:500px;
+	
+}
+div#logInContent {
+	
+	padding:5px 2px 0 2px;
+	margin:auto;
+	
+	min-width:400px;
+	width: 400px;
+	
+	min-height: 500px;
+	height:auto !important;
+	height:500px;
+	
+}
+
+div#verticalBar
+{
+	float: left;
+	width:1px;
+	/*min-height:500px;*/
+	height:500px;
+	position:relative;
+	/*margin:0 5px 0px;*/
+	
+}
+#showHideLeftBar
+{
+	
+	display:block;
+	float:right;
+	cursor:pointer;
+	visibility:visible;
+	width:11px;
+	height:35px;
+	
+	
+}	
+.showHideLeftBarActive
+{
+	background:transparent;
+	background-image:url(../images/ShowHide.png);
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+
+}
+.showHideLeftBarActive:hover
+{
+	background:transparent;
+	background-image:url(../images/ShowHide.png);
+	background-repeat:no-repeat;
+	background-position:0px -32px;
+	
+}
+.showHideLeftBarInActive
+{
+	background:transparent;
+	background-image:url(../images/ShowHide.png);
+	background-repeat:no-repeat;
+	background-position:-12px 2px;
+	
+}
+
+.showHideLeftBarInActive:hover
+{
+	background:transparent;
+	background-image:url(../images/ShowHide.png);
+	background-repeat:no-repeat;
+	background-position:-12px -32px;
+	
+}
+div#mainContent
+{
+	width:100%;
+	min-height: 500px;
+	height:auto !important;
+	height:500px;
+	background-color:#FFFFFF;
+	
+}
+div.contentBody {
+	display:inline-block;
+	height:auto;
+	margin:0px 0px 10px;
+	padding:0 5px 5px;
+	overflow:inherit;
+	width:99%;
+}
+div.contentHeading {
+	padding:1px 0 4px 8px;
+	text-align:left;
+	width:auto;
+}
+
+ div.contentSubHeading
+ {
+ 	height:auto;
+	padding:5px 0px 0px 0px;
+	margin:5px 5px;
+	clear:both;
+} 
+
+div.contentSrch
+{
+	padding:20px 0 1px;
+}	
+div.contentGrid
+ {
+ 	height:auto;
+	padding:5px;
+	padding:2px 5px 5px;
+	/*width:780px;*/
+	height:100%;
+	overflow:auto;
+
+}
+div.contentForm {
+	height:auto;
+	margin:5px 2px 0;
+	padding:5px;
+	overflow:auto;
+	
+}
+.divLeft {
+	clear:both;
+	float:left;
+/*	width:380px;*/
+width:auto;
+
+	
+	
+}
+.divRight {
+	clear:right;
+	float:left;
+	/*width:400px; */
+	width:auto;
+
+
+}
+.divLeftFull {
+	clear:both;
+	float:left;
+	width:780px;
+	
+}
+div.contentBtn {
+	height:auto;
+	margin:15px 5px 0;
+	padding:5px 0 0;
+	clear: both;
+	text-align:left;
+}
+div.contentProgress {
+	display:inline-block;
+	height:auto;
+	/*margin:5px 2px;
+	padding:5px; */
+	width:100px;
+}
+
+#footer {
+ 
+	clear: both;
+	width: 100%;
+	text-align:center;
+	padding:5px 0px;
+	height:20px;
+}
+
+
+/*** Error/message box***/
+.EmptyData
+{
+	text-align:center;
+	width:50em;	
+	
+}
+
+#myLoadingBox
+{
+	padding-left:10px;
+	z-index:10;
+
+}
+#myErrorBox
+{
+	padding:0 5px;
+	z-index:5;
+}
+
+
+#myMessageBox
+{
+	z-index:1;
+}
+
+div.myFooterMsgBox
+{
+	text-align:left;
+	padding:2px;
+	margin:0 !important;
+	margin-bottom:0px;
+	
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	
+	width:250px;
+	
+
+} 
+div > div.myFooterMsgBox  
+{
+	position: fixed; 
+}
+div > div.myFooterMsgBox  
+{
+	position: fixed; 
+}
+
+input.error,textarea.error,select.error 
+{
+	
+
+}
+.error
+{
+	/*margin:2px 0 !important;*/
+	
+		
+	
+}
+

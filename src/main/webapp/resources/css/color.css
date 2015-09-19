@@ -1,0 +1,357 @@
+﻿body
+{
+	color:#444444;
+	/*background-color:#666666;*/
+	
+}
+
+#pageBody{
+	
+	border:1px solid #B7B7B7;
+}
+div#rightContent {
+		
+}
+
+em 
+{
+
+}
+span 
+{
+
+}
+h2 {
+
+}
+div#mainContent
+{
+	
+
+}
+div.contentBody
+ {
+	border:2px solid; 
+	border-color:#B7B7B7;
+	background-color:#FFFFFF; 	
+}
+div.contentHeading {
+	border:0 none;
+	color:#000000;
+	
+}
+div.contentForm
+ {
+ 	
+ 	
+}
+
+ 
+ div.contentProgress
+ {
+ 	
+	
+	
+}
+div.contentBtn
+ {
+ 	border-top: 1px solid;
+ 	border-color:#B7B7B7;
+	
+}
+div.contentSubHeading
+ {
+ 	border-bottom: 1px solid;
+ 	border-color:#B7B7B7;
+	
+} 
+div.contentGrid
+ {
+ 	
+ 	
+}
+
+.divLeft
+{
+	
+	
+}
+.divRight
+{
+		
+}
+
+div{
+
+}
+	
+div.clear {
+	
+}
+element.style {
+	
+}
+
+#Header {
+	
+}
+
+
+#companyLogo {
+	
+}
+
+#welcome
+{
+	border-right:2px solid;
+	border-color:#DDDDDD;
+	
+}
+/* global links */
+#globalLink
+{
+    
+}
+#globalLink ul 
+{
+	
+}
+#globalLink ul li
+{
+   
+}
+#globalLink ul li a 
+{
+    color: #444444;
+}
+
+
+
+#globalLink ul li:hover ul,
+#globalLink ul a:hover ul
+{
+    visibility:visible; 
+}
+
+/* module list in header */
+#globalNav {
+	background-image:url(tabRowBlueBg.gif);
+	background-repeat:repeat-x;
+	
+}
+#globalNav > ul:first-child {
+	
+}
+
+#globalNav ul {
+	color:#CCCCCC;
+	
+	
+	
+}
+#globalNav ul li {
+	
+}
+
+
+#globalNav ul li  a.currentTab, #globalNav ul li	a:hover {
+	
+	color:#FFFFFF;
+	border-width:1px;
+	border-style:solid;
+	border-color:#7CAADC;
+	border-bottom:1px solid #7CAADC; 
+	
+	background-color:#7CAADC;
+	background-repeat:no-repeat;
+	
+	-border-top-right-radius:6px;
+	-border-bottom-right-radius:6px;
+	
+	-moz-border-radius-topleft:6px;
+	-moz-border-radius-bottomright:6px;
+	
+	-webkit-border-top-left-radius  :6px;
+	-webkit-border-bottom-right-radius  :6px;
+	
+	}
+
+#globalNav ul li a:hover.currentTab
+{
+	color:#444444;
+	 
+	
+}	
+
+#globalNav ul li a {
+	
+}
+
+#globalNav > ul > li {
+	/*background-image:url(otherTabGreen.gif);*/
+}
+
+#globalNav > ul > li {
+	
+}
+
+#globalNav > ul > li.noBorder {
+	
+}
+
+
+
+/* subGlobalNav */
+
+
+#subGlobalNav {
+	background-color:#7CAADC;
+	border-bottom:1px solid #B7B7B7;
+	border-color:#B7B7B7;
+}
+
+
+#globalNav ul li, #subGlobalNav span {
+
+
+}
+#subGlobalNav span {
+
+}
+
+#subGlobalNav li, #subGlobalNav ul {
+}
+
+
+/* ul li  a */
+blockquote, ul, ol, dl {
+	
+}
+
+ul, menu, dir {
+	
+}
+ul {
+	
+}
+li {
+	
+}
+
+
+ul li 	 
+{
+	
+}
+
+a:link, a:visited, a:hover {
+	
+	color:#444444;
+	
+}
+a.utilityLink:link, a.utilityLink:visited {
+	color:#0B578E;
+}
+
+
+/****** body ********/
+div#verticalBar
+{
+	
+	border-color:#DCDCDC;
+	border-style:none solid none none ;
+	border-width:0 1px 0 0;
+	
+	
+}
+
+#leftBar{
+	
+	
+}
+#leftBar h3, #HideMenu h3 {
+	border-bottom:2px solid;
+	border-color:#B7B7B7;
+	
+}
+.leftList ul{
+	color:#000000;	
+	
+}
+.leftList ul li {
+	
+	border-bottom:1px solid;
+	background-color:#FFFFFF;
+	border-color:#B7B7B7;
+}	
+.leftList ul li a 	  
+{
+	border:0 none;
+	color:#444444;
+	
+}
+.leftList ul li a:hover, .leftList ul li span:hover {
+	background-color:#B7B7B7;
+	color:#000000;
+}
+
+
+ #footer {
+ 
+	background: #FFFFFF;	
+	border-top:1px solid #DCDCDC;
+}	
+
+/*** Error message box***/
+
+
+
+#myLoadingBox
+{
+	background:#94C1E8 none repeat scroll 0 0;
+	border:1px solid;
+	border-color:#7F9DB9;
+	color:#000000;
+
+}
+
+#myErrorBox
+{
+	background:#F4FCA9 none repeat scroll 0 0;
+	border:1px solid;
+	border-color:#FF4848;
+	color:#FF0000;
+	
+}
+#myMessageBox
+{
+	background:#94C1E8 none repeat scroll 0 0;
+	border:1px solid;
+	border-color:#7F9DB9;
+	color:#000000;
+	
+}
+
+div.myFooterMsgBox
+{
+	color:#F00000;
+}	
+
+
+input.error,textarea.error,select.error 
+{
+	border:1px solid;
+	border-color:#FF4848;
+	
+}
+div.error
+{
+	text-align:center;
+	color:#FF4848;
+	
+}
+.error
+{
+	color:#FF4848;
+	
+}
